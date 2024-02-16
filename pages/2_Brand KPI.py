@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 from PIL import Image
 
-st.header("Brand KPI")
+st.title("Brand KPI")
 
 st.markdown("""
 - Created a dashboard to track essential Key Performance Indicators (KPIs).

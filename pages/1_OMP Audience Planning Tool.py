@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header("OMP Audience Planning Tool")
+st.title("OMP Audience Planning Tool")
 st.markdown("""- Developed a dashboard to give sales teams a comprehensive view of the top 50 advertisers spend in the open auction.
 - Provides details on advertisers' spending patterns and audience reach.
 - Integrates five distinct datasets from sources such as Google Ad Manager, Permutive, and Connect.
