@@ -2,9 +2,9 @@ import streamlit as st
 
 st.set_page_config(page_title = "Introduction", layout="wide")
 
-with open("../docs/Dolly Belcher CV.pdf", "rb") as pdf_file:
-    PDFbyte = pdf_file.read()
-st.download_button(label="Download CV", data=PDFbyte, file_name="Dolly Belcher CV.pdf", mime='application/pdf')
+# with open("../docs/Dolly Belcher CV.pdf", "rb") as pdf_file:
+#     PDFbyte = pdf_file.read()
+# st.download_button(label="Download CV", data=PDFbyte, file_name="Dolly Belcher CV.pdf", mime='application/pdf')
 
 st.title("Hello, I'm Dolly Belcher👋🏼")
 
