@@ -11,6 +11,6 @@ st.markdown("""
 - Serves as a crucial tool for ensuring website development changes do not negatively impact advertising revenue.
             """)
 
-st.image(image="../docs/Brand KPI 1.png")
+st.image(image="docs/Brand KPI 1.png")
 
-st.image(image="../docs/Brand KPI 2.png")
+st.image(image="docs/Brand KPI 2.png")

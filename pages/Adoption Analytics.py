@@ -12,6 +12,6 @@ st.markdown("""
 - Conducted a statistical test using the dashboard data.
             """)
 
-st.image(image="../docs/AA 1.png")
+st.image(image="docs/AA 1.png")
 
-st.image(image="../docs/AA 2.png")
+st.image(image="docs/AA 2.png")

@@ -1,8 +1,10 @@
 import streamlit as st
 
-st.set_page_config(page_title = "Introduction", layout="wide")
 
-with open("../docs/Dolly Belcher CV.pdf", "rb") as pdf_file:
+st.set_page_config(page_title="Introduction", page_icon="👋")
+
+
+with open("docs/Dolly Belcher CV.pdf", "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 st.download_button(label="Download CV", data=PDFbyte, file_name="Dolly Belcher CV.pdf", mime='application/pdf')
 
@@ -28,22 +30,22 @@ st.header("Skills")
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
-    st.image("../docs/python.png", width=50)
+    st.image("docs/python.png", width=50)
 
 with col2:
-    st.image("../docs/GA.png", width=50)
+    st.image("docs/GA.png", width=50)
 
 with col3:
-    st.image("../docs/salesforce.png", width=50)
+    st.image("docs/salesforce.png", width=50)
 
 with col4:
-    st.image("../docs/SQL.png", width=50)
+    st.image("docs/SQL.png", width=50)
 
 with col5:
-    st.image("../docs/tableau.png", width=50)
+    st.image("docs/tableau.png", width=50)
 
 with col6:
-    st.image("../docs/GAM.png", width=50)
+    st.image("docs/GAM.png", width=50)
 
 
 

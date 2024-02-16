@@ -8,8 +8,8 @@ st.markdown("""- Developed a dashboard to give sales teams a comprehensive view 
 - Addresses the growing importance of direct advertising due to the depreciation of third-party cookies.""")
 
 st.markdown("Revenue Analysis:")
-st.image(image="../docs/Picture1.png")
+st.image(image="docs/Picture1.png")
 
 
 st.markdown("Demographic Analysis:")
-st.image(image="../docs/OMP 2.png")
+st.image(image="docs/OMP 2.png")
