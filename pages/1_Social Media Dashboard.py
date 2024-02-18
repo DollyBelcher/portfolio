@@ -48,4 +48,4 @@ tableau_dashboard = """
 """
 
 # Embed the dashboard using Streamlit components
-components.html(tableau_dashboard, width=900, height=900, scrolling=True)
+components.html(tableau_dashboard, width=1100, height=1100, scrolling=True)

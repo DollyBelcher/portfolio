@@ -3,7 +3,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Introduction", layout="wide")
 
-col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns(10)
+col1, col2, col3, col4, col5, col6, col7, col8, col9 = st.columns(9)
 
 with col1:
     st.write("[LinkedIn](https://www.linkedin.com/in/dollybelcher)")
@@ -12,7 +12,7 @@ with col1:
 with col2:
     st.write("[Tableau](https://public.tableau.com/app/profile/dolly.belcher/vizzes)")
 
-with col10:
+with col9:
     with open("docs/Dolly Belcher CV.pdf", "rb") as pdf_file:
         PDFbyte = pdf_file.read()
         st.download_button(label="Download CV", data=PDFbyte, file_name="Dolly Belcher CV.pdf", mime='application/pdf')
