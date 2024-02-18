@@ -33,8 +33,8 @@ st.markdown("""
 st.markdown('<div class="custom-title">Social Media</div>', unsafe_allow_html=True)
 
 st.markdown("""
-    In my personal time, I have analysed a public dataset which shows the amount of time people spend on social media.
-    The main chart shows the negative correlation between income and time spent on social media, with younger people spending more time on social media but have, on average, lower incomes.
+    I analysed a public dataset which shows the amount of time people spend on social media.
+    The chart shows the relationship between income and time spent on social media, with younger people spending more time on social media but have, on average, lower incomes.
 """)
 
 tableau_dashboard = """
@@ -57,4 +57,3 @@ tableau_dashboard = """
 
 # Embed the dashboard using Streamlit components
 components.html(tableau_dashboard, width=1100, height=1100, scrolling=True)
-
