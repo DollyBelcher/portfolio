@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.set_page_config(page_title="Introduction")
+st.set_page_config(page_title="Introduction", layout="wide")
 
 
 with open("docs/Dolly Belcher CV.pdf", "rb") as pdf_file:
@@ -20,9 +20,9 @@ st.markdown("""
             I am an experienced data analyst who specialises in data visualisation. I play a key role at Immediate Media, the publisher behind BBC Good Food and Radio Times, focusing on advertising revenue and sales performance.
             My expertise and passion lies in transforming data into clear, actionable insights.
 
-            Please find my key skills and CV below. On the pages, I have included a range of dashboards I have created with short descriptions.
+            Please find my key skills below. On seperate pages, I have included a range of dashboards I have created with short descriptions. Any sensitive data has been redacted, to maintain confidentiality.
 
-            If you have any questions, please contact me using the form below.
+            If you have any questions, please contact me using the form!
             """)
 
 st.header("Skills")
