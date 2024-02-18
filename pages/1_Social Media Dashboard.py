@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
-
+# Custom CSS for title, centering, and styling the dashboard
 st.markdown("""
 <style>
 .custom-title {
@@ -13,12 +13,28 @@ st.markdown("""
     font-size: 36px; /* Larger font size */
     font-weight: bold; /* Bold font */
 }
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tableauPlaceholder {
+    border: 2px solid #D7EAFF; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
 </style>
 """, unsafe_allow_html=True)
 
+# Title with custom style
 st.markdown('<div class="custom-title">Social Media</div>', unsafe_allow_html=True)
 
+# Link to Tableau
 st.write("[Tableau](https://public.tableau.com/app/profile/dolly.belcher/vizzes)")
+
 
 
 tableau_dashboard = """

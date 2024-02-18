@@ -24,43 +24,22 @@ st.markdown("""During my time at Immediate Media, I have created dashboards on S
             """)
 
 
+st.header("OMP Audience Planning Tool")
+st.markdown("""- Developed a dashboard to give sales teams a comprehensive view of the top 50 advertisers spend in the open auction.
+- Provides details on advertisers' spending patterns and audience reach.
+- Integrates five distinct datasets from sources such as Google Ad Manager, Permutive, and Connect.
+- Aims to equip salespeople with first-party data for upselling direct advertising.
+- Addresses the growing importance of direct advertising due to the depreciation of third-party cookies.""")
 
-st.markdown("""
-<style>
-.custom-container {
-    background-color: #D7EAFF;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 10px 0;
-}
-</style>
-""", unsafe_allow_html=True)
+col1, col2 = st.columns(2)
 
-container = st.container()
-with container:
-    st.markdown('<div class="custom-container">', unsafe_allow_html=True)
+with col1:
+    st.markdown("Revenue Analysis:")
+    st.image(image="docs/Picture1.png")
 
-    st.header("OMP Audience Planning Tool")
-    st.markdown("""
-    - Developed a dashboard to give sales teams a comprehensive view of the top 50 advertisers spend in the open auction.
-    - Provides details on advertisers' spending patterns and audience reach.
-    - Integrates five distinct datasets from sources such as Google Ad Manager, Permutive, and Connect.
-    - Aims to equip salespeople with first-party data for upselling direct advertising.
-    - Addresses the growing importance of direct advertising due to the depreciation of third-party cookies.
-    """)
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.markdown("Revenue Analysis:")
-        st.image("docs/Picture1.png")
-
-    with col2:
-        st.markdown("Demographic Analysis:")
-        st.image("docs/OMP 2.png")
-
-    st.markdown('</div>', unsafe_allow_html=True)
+with col2:
+    st.markdown("Demographic Analysis:")
+    st.image(image="docs/OMP 2.png")
 
 
 st.header("Brand KPI")
