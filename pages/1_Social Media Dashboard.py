@@ -1,8 +1,23 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-# Title for your Streamlit app
-st.title("Social Media")
+st.markdown("""
+<style>
+.custom-title {
+    background: linear-gradient(to right, #83a4d4, #b6fbff); /* Ombre effect from blue to light blue */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px 0; /* Margin for spacing */
+    text-align: center;
+    font-size: 36px; /* Larger font size */
+    font-weight: bold; /* Bold font */
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="custom-title">Social Media</div>', unsafe_allow_html=True)
+
 st.write("[Tableau](https://public.tableau.com/app/profile/dolly.belcher/vizzes)")
 
 
