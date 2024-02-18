@@ -24,7 +24,7 @@ st.markdown("""During my time at Immediate Media, I have created dashboards on S
             """)
 
 
-st.header("OMP Audience Planning Tool")
+st.subheader("OMP Audience Planning Tool")
 st.markdown("""- Developed a dashboard to give sales teams a comprehensive view of the top 50 advertisers spend in the open auction.
 - Provides details on advertisers' spending patterns and audience reach.
 - Integrates five distinct datasets from sources such as Google Ad Manager, Permutive, and Connect.
@@ -42,7 +42,7 @@ with col2:
     st.image(image="docs/OMP 2.png")
 
 
-st.header("Brand KPI")
+st.subheader("Brand KPI")
 
 st.markdown("""
 - Created a dashboard to track essential Key Performance Indicators (KPIs).
