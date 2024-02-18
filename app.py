@@ -67,18 +67,30 @@ col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
     st.image("docs/python.png", width=50)
+    st.text("")
+    st.image("docs/AWS.png", width=50)
 
 with col2:
     st.image("docs/GA.png", width=50)
+    st.text("")
+    st.image("docs/GCP.png", width=50)
 
 with col3:
     st.image("docs/salesforce.png", width=50)
+    st.text("")
+    st.image("docs/pandas.png", width=50)
 
 with col4:
     st.image("docs/SQL.png", width=50)
+    st.text("")
+    st.image("docs/sklearn.png", width=50)
 
 with col5:
     st.image("docs/tableau.png", width=50)
+    st.text("")
+    st.image("docs/sns.png", width=50)
 
 with col6:
     st.image("docs/GAM.png", width=50)
+    st.text("")
+    st.image("docs/tensorflow.png", width=50)
